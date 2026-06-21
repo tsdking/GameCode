@@ -37,6 +37,14 @@ python3 -m http.server 8080
 3. Source 选择 **Deploy from a branch**，Branch 选择 **main / root**。
 4. 等待片刻，访问 `https://你的用户名.github.io/仓库名/`。
 
+### 一键部署脚本
+
+```bash
+./scripts/deploy.sh
+```
+
+脚本会自动检测未提交更改、提交、推送并等待部署完成。
+
 ## 部署到 Cloudflare Pages
 
 1. 登录 [Cloudflare Pages](https://pages.cloudflare.com/)。
